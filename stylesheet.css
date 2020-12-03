@@ -1,0 +1,16 @@
+textarea{
+    width: 80%;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+#btn-translate{
+    margin: 1rem;
+}
+.output{
+    border: 0.001rem solid black;;
+    width: 80%;
+    height: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
