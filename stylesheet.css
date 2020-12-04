@@ -29,8 +29,8 @@ textarea{
     padding: 1rem;
     background:transparent;
     border:1px solid white;
-    margin: auto;
-    width:600px;
+    margin-left: 1rem;
+    width:50%;
     font-size:20px;
     color:#fff;
 
@@ -40,7 +40,7 @@ textarea{
 }
 .output{
     border: 0.001rem solid white;;
-    width: 80%;
+    width: 50%;
     height: 5rem;
     padding: 1rem;
     margin: 1rem;
