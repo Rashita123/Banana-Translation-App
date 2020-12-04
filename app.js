@@ -3,7 +3,7 @@ var btnTranslate=document.querySelector("#btn-translate");
 var output=document.querySelector(".output");
 var input=document.querySelector("#input-text");
 
-var serverURL="https://api.funtranslations.com/translate/braille/unicode.json";
+var serverURL="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function URLConstruct(text){
     return serverURL+"?"+"text="+text;

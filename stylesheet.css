@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+:root{
+    --primary-color:#F59E0B;
+}
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+}
+#header-section{
+    background-color: var(--primary-color);
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0.5px;
+    text-align: center;
+}
+.text-adjusted-heading
+{
+    margin: 1rem;
+}
 textarea{
     width: 80%;
     height: 5rem;
