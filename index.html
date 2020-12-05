@@ -9,22 +9,39 @@
 <body>
 
     <nav class="navigation-div">
+        
         <a class="primary-link" href="index.html">Home</a>
         <a class="primary-link" href="blog.html">Blog</a>
     </nav>
+
     <div id="header-section">
         <h1>Braille Translation App</h1>
     </div>
+
+    
+
+    <!-- <p class="paragraph-text">This is a FREE Translation Tool. You can convert English to Braille and can easily communicate with your blind friends.</p> -->
     <h2 class="text-adjusted-heading">Enter the text to convert it to Braille!</h2>
     <textarea id ="input-text" placeholder="Type anything to translate"></textarea><br>
+    
+    
+    <div class="dropdown">
+        <button class="dropbtn">Select Language to Translate</button>
+        <div class="dropdown-content">
+            <a id="braille-button" href="#">Braille</a>
+            <a id="minion-button" href="#">Minion Language</a>
+        </div>
+    </div>
+
     <button id="btn-translate">Translate</button>
+
     <div class="output"></div>
 
 
 
 
     <footer id="footer">
-        Made with by Rashita!
+        Made with ❤️ by Rashita!
     </footer>
     <script src="app.js" type="text/javascript"></script>
 </body>

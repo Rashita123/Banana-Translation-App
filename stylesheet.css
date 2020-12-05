@@ -10,19 +10,22 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    max-width: 80%;
+    margin: auto;
 }
 .navigation-div{
     padding-right:10rem;
+    text-align:right;
+    padding-top: 1rem;
 }
 
 .primary-link{
     text-decoration: none;
     margin: 1rem;
-    font-size: medium;
+    font-size: large;
     color: white;
-    float: right;
-    padding: 0.5rem;
 }
+
 #header-section{
    color: var(--primary-color);
     height: 5rem;
@@ -35,8 +38,13 @@ body{
 {
     color:#EFF6FF;
     margin: 1rem;
-    text-align: center;
+    text-align: ;left;
 }
+/* .paragraph-text{
+    color: white;
+    max-width: 300px;
+    margin: 1rem;
+} */
 textarea{
     height: 5rem;
     padding: 1rem;
@@ -50,7 +58,60 @@ textarea{
 }
 #btn-translate{
     margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: large;
 }
+#btn-translate:hover {
+    background-color: var(--primary-color); /* Green */
+    color: white;
+  }
+
+  .dropbtn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: var(--primary-color);
+:}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+
 .output{
     border: 0.001rem solid white;;
     width: 80%;
@@ -62,7 +123,9 @@ textarea{
 }
 
 #footer{
-    height: 2rem;
+    height: 6rem;
     background: var(--primary-color);
-    margin-bottom:0rem;
+    margin:1rem;
+    width: 80%;
+    padding: 1rem;
 }
