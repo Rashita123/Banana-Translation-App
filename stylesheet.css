@@ -30,9 +30,7 @@ body{
 
 #header-section{
    color: var(--primary-color);
-    height: 5rem;
     padding: 1rem;
-    border-radius: 8px;
     margin: 0.5px;
     font-size: larger;
 }
@@ -42,11 +40,7 @@ body{
     margin: 1rem;
     text-align: left;
 }
-/* .paragraph-text{
-    color: white;
-    max-width: 300px;
-    margin: 1rem;
-} */
+
 textarea{
     height: 5rem;
     padding: 1rem;
