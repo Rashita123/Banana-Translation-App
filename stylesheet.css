@@ -1,22 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 :root{
-    --primary-color:#D1D5DB;
+    --primary-color:rgb(40, 168, 234);;
 }
 
 body{
     font-family: 'Do Hyeon', sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1512799906445-d591d53082c0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YmxpbmR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-color: black;
+    /* background-image: url("https://images.pexels.com/photos/1383562/pexels-photo-1383562.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=5000"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
-  background-size: cover;
+    background-size: cover;
+}
+.navigation-div{
+    padding-right:10rem;
+}
+
+.primary-link{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: medium;
+    color: white;
+    float: right;
+    padding: 0.5rem;
 }
 #header-section{
-   color: white;
+   color: var(--primary-color);
     height: 5rem;
     padding: 1rem;
     border-radius: 8px;
     margin: 0.5px;
-    text-align: center;
+    font-size: larger;
 }
 .text-adjusted-heading
 {
@@ -44,7 +57,7 @@ textarea{
     height: 5rem;
     padding: 1rem;
     margin: 1rem;
-
+    color: white;
     
 }
 
