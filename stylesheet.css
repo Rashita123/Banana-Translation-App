@@ -44,7 +44,7 @@ body{
 
 textarea{
     height: 5rem;
-    padding: 1rem;
+    padding-top: 0.5rem;
     background:transparent;
     border:1px solid white;
     margin-left: 1rem;
@@ -71,7 +71,7 @@ textarea{
     border: 0.001rem solid white;;
     width: 80%;
     height: 5rem;
-    padding: 1rem;
+    padding-top: 0.5rem;
     margin: 1rem;
     color: white;
     
@@ -82,7 +82,7 @@ textarea{
     background: var(--primary-color);
     margin:1rem;
     width: 80%;
-    padding: 1rem;
+    padding-top:0.5rem;
     text-align: center;
 }
 ul{
