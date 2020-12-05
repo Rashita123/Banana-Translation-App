@@ -42,7 +42,7 @@ body{
 }
 
 textarea{
-    height: 5rem;
+    height: 7rem;
     padding-top: 0.5rem;
     background:transparent;
     border:1px solid white;
@@ -69,7 +69,7 @@ textarea{
 .output{
     border: 0.001rem solid white;;
     width: 80%;
-    height: 5rem;
+    height: 7rem;
     padding-top: 0.5rem;
     margin: 1rem 0.5rem;
     color: white;
