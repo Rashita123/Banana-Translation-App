@@ -14,9 +14,8 @@ body{
     margin: auto;
 }
 .navigation-div{
-    padding-right:10rem;
     text-align:right;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .primary-link{
@@ -38,7 +37,7 @@ body{
 {
     color:#EFF6FF;
     margin: 1rem;
-    text-align: ;left;
+    text-align: left;
 }
 /* .paragraph-text{
     color: white;
@@ -123,7 +122,7 @@ textarea{
 }
 
 #footer{
-    height: 6rem;
+    height: 4rem;
     background: var(--primary-color);
     margin:1rem;
     width: 80%;
