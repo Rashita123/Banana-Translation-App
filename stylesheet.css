@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 .navigation-div{
@@ -66,49 +66,7 @@ textarea{
     color: white;
   }
 
-  .dropbtn {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    transition-duration: 0.4s;
-  }
   
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    margin: 1rem;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {color: var(--primary-color);
-:}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: transparent;
-  }
-
 .output{
     border: 0.001rem solid white;;
     width: 80%;

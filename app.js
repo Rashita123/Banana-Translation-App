@@ -2,16 +2,12 @@ var btnTranslate=document.querySelector("#btn-translate");
 var output=document.querySelector(".output");
 var input=document.querySelector("#input-text");
 
-var brailleButton=document.querySelector("#braille-button")
-var minionButton=document.querySelector("#minion-button")
 
-var brailleURL="https://api.funtranslations.com/translate/braille/unicode.json";
-var minionURL="https://api.funtranslations.com/translate/minion.json";
-
-var serverURL=brailleURL;
 function URLConstruct(text){
     return serverURL+"?"+"text="+text;
 }
+
+serverURL="https://api.funtranslations.com/translate/braille/unicode.json";
 
 function errorHandler(error){
     console.log("Error occured",error);
@@ -28,6 +24,5 @@ function clickEventHandler(){
     .catch(errorHandler)
 }
 
-brailleButton.addEventListener("click",serverURL=brailleURL);
-minionButton.addEventListener("click",serverURL=minionURL);
+
 btnTranslate.addEventListener("click",clickEventHandler);
