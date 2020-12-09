@@ -2,7 +2,7 @@ var btnTranslate=document.querySelector("#btn-translate");
 var output=document.querySelector(".output");
 var input=document.querySelector("#input-text");
 
-serverURL="https://api.funtranslations.com/translate/braille/unicode.json";
+var serverURL="https://api.funtranslations.com/translate/braille/unicode.json";
 function URLConstruct(text){
     return serverURL+"?"+"text="+text;
 }
